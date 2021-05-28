@@ -1,0 +1,4 @@
+fazer um push do repositorio local para o repositorio remoto no GitHub
+
+git remote add origin link-do-repositorio-GitHub:  ira adiciona o repositorio remoto como origin do repositorio local
+git push origin master:  ira enviar o repositorio local para o repositorio master(GitHub)

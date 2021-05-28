@@ -10,21 +10,9 @@
 9- git status: mostra o status dos arquivos no repositorio.
 10- mv arquivo ./diretorio-desejado:  move um arquivo para o diretorio informado
 11- git rm: remove o arquivo do git tracked do git.
-12- git restore --staged <name-file>: desadicionar   
+12- git restore --staged <name-file>: desadicionar
+13- git remote add origin link-do-repositorio-GitHub:  ira adiciona o repositorio remoto como origin do repositorio local   
+14- git remote -v : lista os repositorios cadastrados
+15- git push origin master:  ira enviar o repositorio local para o repositorio master(GitHub)
 
 
-Quais são os 4 estágios de arquivos dentro do git?
-Untracked, Unmodified, Modified e Staged.
-
-As alterações que você faz no seu ambiente de trabalho refletem diretamente no seu repositório no GitHub,
- sem necessitar usar nenhum comando adicional.
- Falso.
-
- O que o comando Git init faz?
- Inicializa um repositório git na pasta em questão.
-
- Qual a diferença do seu ambiente de desenvolvimento e do servidor?
- Seu ambiente de desenvolvimento é local e o servidor, remoto.
-
-Quais são as vantagens de se utilizar versionamento de código com git ?
- Maior controle sobre recuperação de versão específicas do código, compartilhamento e colaboração em grupo

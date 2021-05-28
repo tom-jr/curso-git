@@ -23,3 +23,21 @@ Ambiente de desenvolvimento {
 Servidor{
     remote repository
 }
+
+
+
+Quais são os 4 estágios de arquivos dentro do git?
+Untracked, Unmodified, Modified e Staged.
+
+As alterações que você faz no seu ambiente de trabalho refletem diretamente no seu repositório no GitHub,
+ sem necessitar usar nenhum comando adicional.
+ Falso.
+
+ O que o comando Git init faz?
+ Inicializa um repositório git na pasta em questão.
+
+ Qual a diferença do seu ambiente de desenvolvimento e do servidor?
+ Seu ambiente de desenvolvimento é local e o servidor, remoto.
+
+Quais são as vantagens de se utilizar versionamento de código com git ?
+ Maior controle sobre recuperação de versão específicas do código, compartilhamento e colaboração em grupo
