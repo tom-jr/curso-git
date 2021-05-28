@@ -1,0 +1,9 @@
+SHA1 { algoritmo de hash segura, gera um conjunto de 40 caracters de identificação
+uma forma curta de identificação de um arquivo (a grosso modo de dizer)
+}
+Ex{
+    echo "Ola Mundo" | opensll sha1 [este comando ira gerar um conjunto de 40 caracters representando "Ola Mundo"]
+    -> (stdin) = 40 caracters
+   IMPORTANTE: caso eu fizer alguma alteração e passar pelo sha1 sera gerado um novo conjunto de caracters. E se caso desfazer a alteração e 
+    passar novamente pelo sha1, os caracters gerados seram identico ao anterior.
+}

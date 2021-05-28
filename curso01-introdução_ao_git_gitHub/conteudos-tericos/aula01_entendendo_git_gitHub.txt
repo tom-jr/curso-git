@@ -1,0 +1,12 @@
+
+Git foi criado em 2005, é um sistema de versionamento de codigo distribuido. Criado por Linus Torvalds.
+Linus ao trabalhar no desenvolvimento colaborativo do sistema operacional Linux, teve a necessidade que
+os codigos fossem versionado
+
+GitHub é um repositorio remoto onde voce guarda os codigos versionados.
+
+1- Controle de versão
+2-  Armazenamento em nuvem
+3-  Trabalho em equipe
+4- evolução do codigo
+5- Reconhecimento 

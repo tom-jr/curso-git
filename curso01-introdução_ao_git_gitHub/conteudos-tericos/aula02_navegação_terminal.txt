@@ -1,0 +1,16 @@
+GUI x CLI
+
+GUI -> grafic user interface
+CLI -> comand line interface
+
+Comandos cmd windows   Comandos Unix
+    -cd                     -cd  ---> chenged directory -> mudar de diretorio
+    -dir                    -ls  --->  lista todos os arquivos dentro do diretorio atual
+    -mkdir                  -mkdir -> 
+    -del/rmdir              -rm -rf
+
+    echo hello > hello.txt
+    o echo que iria apenas imprimir na tela, agora ira ser imputado no arquivo hello.txt com o uso do ">"    window/Linux
+
+    se usar o del antecedido de uma pasta não sera deletado a pasta, mas sim todo o seu conteudo dentro!
+    ja o rmdir /S /Q deletara  pasta + conteudos

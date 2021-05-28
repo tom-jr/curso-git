@@ -1,0 +1,9 @@
+1- cd: mudar de diretorio do bash
+2- ls: listar todos os arquivos do diretorio atual parametros[ -a: lista pastas ocultas]
+3- mkdir: criar novo diretorio
+4- -rm -rf deletar diretorio e seus conteudos
+5- git init: incia um novo repositorio cria pasta oculta .git com todos os arquivos de gerenciamento do git
+6- git config --global user.name "user": seta o user global do git
+6- git config --global user.emai "nome@gmail.com": seta o user global do git parametros[--global: ação globalmente, --unset: remove]
+7- git add : adiciona ao git parametros[*,-A:tudo que foi modificado,]
+8- git commit: forma o objeto commit com as mudanças adicionadas  parametros[-m "mensagem do auto do commit",]

@@ -1,0 +1,4 @@
+SHA1-> secure hash algorithm (algoritimo de hash seguro) -> conjunto de função hash criptograficas projetadas
+pela NSA (Agencia de segurança Nacional dos EUA).
+Encriptografica os codigos de acordo com a edição do mesmo.
+Caso mudar uma virgula, gera uma nova encriptografia, caso caso repor a mesma virgula gerara o codigo anterior novamente!

@@ -1,0 +1,52 @@
+Objetos internos do git
+
+-Blob
+-Tree
+-Commits
+
+Blob{
+    -> echo "conteudo" | git hash-object --stdin [hash-object: devolve o sha1 do objeto, --stdin: informa recebimento de arquivo]
+    -> echo "conteudo" | openssl sha1 [retorna um sha1 do objeto diferente do sh1 com comando hash-object]
+    na criptografia de hash-object é adicionado informações extras por tal motivo o sha1 é diferente.
+
+formato do objeto Blob{
+    tipo <tamanho> \0 objeto.
+}
+    retorno com hash-object ->{blob9\0conteudo}
+    
+}
+Tree{
+    Tree armazenam blobs e outras trees
+    formato do objeto tree[
+        tree <tamanho>
+        \0
+        blob sa4d8s texto.txt
+    ]
+    
+}
+
+Commit{
+    formato do objeto Commit[
+        Commit <tamanho>
+        parent  a9sdas8d      --> commit anterior
+        autor   user.name     --> autor do commit
+        mensagem "mensagem"
+        timestamp             --> 
+    ]
+    IMPORTANTE: caso houver qualquer alteração em qualquer tree ou blob do commit, sera gerado um novo sha1 do comit
+}
+
+Por que o GIT é considerado seguro?
+Porque seus objetos estão ligados de maneira encadeada e de difícil alteração.
+
+Quais os três objetos internos do GIT?
+BLOB, TREE e COMMIT
+
+Com que finalidade o SHA1 é usado no GIT?
+O SHA1 é usado para identificar arquivos.
+
+O que é o SHA1?
+É um algorítimo de encriptação que nos retorna um conjunto de 40 caracteres identificadores.
+
+O que é um sistema distribuído?
+Um sistema que possui múltiplas cópias de si mesmo em diferentes locais.

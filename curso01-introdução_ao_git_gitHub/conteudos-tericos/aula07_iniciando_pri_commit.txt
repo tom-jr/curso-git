@@ -1,0 +1,19 @@
+Iniciar o GIT
+Iniciar Versionamento
+Criar um commit
+
+comandos{
+    git init
+    git add
+    git commit
+    git config --global user.name "nomeUser"
+}
+
+git init ira iniciar o repositorio com uma pasta oculta para gerenciamento dos commits
+
+git config --global user.name "nomeUser"  setara o nome de usuario do git, o global ira setar globalmente e
+não somente no diretorio do git iniciado
+
+
+git add : adiciona ao git parametros[*,-A:tudo que foi modificado,]
+git commit: forma o objeto commit com as mudanças adicionadas  parametros[-m "mensagem do auto do commit",]
