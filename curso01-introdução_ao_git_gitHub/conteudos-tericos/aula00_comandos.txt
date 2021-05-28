@@ -7,3 +7,7 @@
 6- git config --global user.emai "nome@gmail.com": seta o user global do git parametros[--global: ação globalmente, --unset: remove]
 7- git add : adiciona ao git parametros[*,-A:tudo que foi modificado,]
 8- git commit: forma o objeto commit com as mudanças adicionadas  parametros[-m "mensagem do auto do commit",]
+9- git status: mostra o status dos arquivos no repositorio.
+10- mv arquivo ./diretorio-desejado:  move um arquivo para o diretorio informado
+11- git rm: remove o arquivo do git tracked do git.
+12- git restore --staged <name-file>: desadicionar   

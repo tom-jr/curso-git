@@ -1,0 +1,25 @@
+Tracked{
+    Unmodified, modified, Staged
+}
+
+Untracked: quando o git não sabe da existencia do arquivo.
+
+quando usamos o comando git add o arquivo foi direto para o status de  Staged
+
+Unmodified quando voce tem um arquivo que não sofreu alterações nele
+
+quando faz uma alteração no arquivo unmodified, ele passar a ser modified
+
+quando rodamos git add no arquivo modified ele ira para o status de Staged.
+
+quando de unmodified executamos um git remove o arquivo vai para o status de Untracked
+
+quando executamos um git commit o arquivo vai para unmodified.
+
+
+Ambiente de desenvolvimento {
+    working directory, stage area, local repository
+}
+Servidor{
+    remote repository
+}

@@ -17,3 +17,22 @@ não somente no diretorio do git iniciado
 
 git add : adiciona ao git parametros[*,-A:tudo que foi modificado,]
 git commit: forma o objeto commit com as mudanças adicionadas  parametros[-m "mensagem do auto do commit",]
+
+
+
+
+Qualquer pasta do sistema operacional pode ser versionada pelo GIT sem a necessidade de nenhuma preparação prévia.
+Falso.
+
+O que é um arquivo do tipo Markdown?
+Um arquivo que usa caracteres especiais como # para formatar o texto.
+
+Para editar um arquivo do tipo Markdown pode-se usar qualquer editor de texto.
+Verdadeiro.
+
+Qual a estrutura do GIT responsável por adicionar uma mensagem as nossas alterações?
+git commit
+
+Qual o comando usado para inicializar o GIT dentro de uma pasta?
+git init
+
