@@ -2,3 +2,19 @@ fazer um push do repositorio local para o repositorio remoto no GitHub
 
 git remote add origin link-do-repositorio-GitHub:  ira adiciona o repositorio remoto como origin do repositorio local
 git push origin master:  ira enviar o repositorio local para o repositorio master(GitHub)
+
+
+O GitHub é, exclusivamente, um repositório de código online.
+Mentira, o GitHub também é uma rede social.
+
+Qual o comando usado para listar as configurações do Git?
+git config --list
+
+GitHub não ler arquivo markdown
+Falso.
+
+Qual comando utilizado para apontar um repositório local para um repositório remoto?
+git remote add origin https://github ....
+
+O que acontece quando você gera commits no seu repositório local com email e nickname diferentes dos utilizados no GitHub?
+Os commits apareceram com email e nickname diferentes no GitHub.

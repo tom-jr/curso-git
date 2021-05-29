@@ -1,0 +1,33 @@
+quando voce faz request do codigo remote
+e outro usuario tambem faz, e ambos modificam o codigo
+quando é feito o push para o remote entra em conflito, onde é necessario ser solucionado
+manualmente
+
+para que voce possa esta com a versão mais atualizado seu codigo, faça um pull.
+git pull origin master
+
+git clone https://github...:  clona um repositorio de acordo com o link setado
+então assim voce pode realizar suas proprias mudanças.
+
+
+Quando você tenta empurrar (push) o código para o GitHub e o seu commit
+ não representa o estado mais atual do repositório o git irá:
+ Pedir para você fazer um pull e depois um push.
+
+quando surge conflito de merge.
+Pedir para você fazer um pull e depois um push.
+
+
+O Git resolve todos conflitos de merge automaticamente.
+Falso
+
+
+O que o comand git clone faz?
+Faz um clone do repositório remoto em seu repositório local.
+
+Após corrigir o conflito em seu repositório local é necessário:
+Criar um novo commit e envia-lo (git push) para o GitHub.
+
+O que é um conflito?
+Quando duas pessoas editam a mesma linha de código.
+

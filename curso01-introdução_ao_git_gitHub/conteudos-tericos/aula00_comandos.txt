@@ -14,5 +14,5 @@
 13- git remote add origin link-do-repositorio-GitHub:  ira adiciona o repositorio remoto como origin do repositorio local   
 14- git remote -v : lista os repositorios cadastrados
 15- git push origin master:  ira enviar o repositorio local para o repositorio master(GitHub)
-
-
+16- git pull origin master: puxa o remoto para local, com todas as atualizações commitadas
+17- git clone https://github...:  clona um repositorio de acordo com o link setado
