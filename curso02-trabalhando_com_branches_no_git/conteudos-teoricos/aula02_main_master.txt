@@ -19,3 +19,6 @@ para a branche que voce se movimentou.
 
 git merge nova-branche:  voce mescla a nova-branche, com a branche que esta em head
 
+com o comando git brache voce pode verificar quantas branches voce tem e em quais dela voce esta com o caratere
+'*'.
+
