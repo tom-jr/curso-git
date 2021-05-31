@@ -22,3 +22,5 @@ git merge nova-branche:  voce mescla a nova-branche, com a branche que esta em h
 com o comando git brache voce pode verificar quantas branches voce tem e em quais dela voce esta com o caratere
 '*'.
 
+
+Stash: cria-se dentro de uma branch para que não se leve nenhum (lixo, sujeira) para another branch.

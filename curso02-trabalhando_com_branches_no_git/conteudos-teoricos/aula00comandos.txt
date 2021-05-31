@@ -1,7 +1,8 @@
 001-git checkout nova-branche: se move para a nova-branche parametros[ 
 -b: caso não tenha, cria a branche com este nome, 
 -m renomeia a branche que esta em head, 
--m nome-da-branch: novo-nome-branch caso voce queira mudar outra branch que não seja a head
--d nome-branch: deleta a branch referenciada]
+-m nome-da-branch novo-nome-branch: caso voce queira mudar outra branch que não seja a head
+-d nome-branch: deleta a branch referenciada (necessario esta em outra branch para realizar o comando)]
 002-git merge nova-branche:  voce mescla a nova-branche, com a branche que esta em head
 003-git branche: mostra todas as sua braches e descata com '*'  a brache onde esta a head(onde voce esta trabalhando)
+004-git stash save "descrição": salva seu diretorio de trabalho e index em um stash na branch head
