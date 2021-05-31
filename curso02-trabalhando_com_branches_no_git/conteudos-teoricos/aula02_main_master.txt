@@ -24,3 +24,5 @@ com o comando git brache voce pode verificar quantas branches voce tem e em quai
 
 
 Stash: cria-se dentro de uma branch para que não se leve nenhum (lixo, sujeira) para another branch.
+com o comando git stash save "desc": salva qualquer edição que tenha sido adcionada na branch dentro de uma 
+stash(tipo um array)
