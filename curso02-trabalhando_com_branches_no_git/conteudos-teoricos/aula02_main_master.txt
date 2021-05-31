@@ -1,0 +1,21 @@
+-Main x master
+-Navegação em branches
+-Criar, editar, deletar(Local)
+
+
+O git cria o repositorio nomeado om branche master , enquanto o gitHub cria como Main
+isso pode causar confusão ao programador. caso voce fizer um push do seu master ele sera
+criado no gitHub e aplicado alterações apenas no branche master.
+
+HEAD.
+heade é uma tag que sempre aponta para o ultimo commit
+
+
+para navegar e criar uma nova branche.
+git checkout nova-branche: se move para a nova-branche parametros[ -b: caso não tenha, cria a branche com este nome]
+
+quando voce editar uma branche e ficar edição untracked e voce mudar de branches com o checkout, as edições untracked vão
+para a branche que voce se movimentou.
+
+git merge nova-branche:  voce mescla a nova-branche, com a branche que esta em head
+

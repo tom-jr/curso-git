@@ -1,0 +1,8 @@
+Quando voce tem um repositorio no gitHub, voce ja esta trabalhando em uma branche, a branche main.
+as branches são bifurcações dos repositorios onde voce pode realizar alterações sem modificar as demais 
+branches, apos realizar os procedimentos desejados voce pode unficar dando um merge!
+
+Exemplo seria um site de uma grande empresa que esta passando por uma grande atualização de sua interface, 
+então é feito um branche e nele se realiza toda as alterações necessaria sem alterar o site de incio.
+Depois de testada as atualizações é feito um marge com o branche main, o qual ja sera visivel as atualizações 
+para o usuario final.

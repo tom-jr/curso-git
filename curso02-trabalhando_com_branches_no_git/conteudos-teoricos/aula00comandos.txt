@@ -1,0 +1,2 @@
+001-git checkout nova-branche: se move para a nova-branche parametros[ -b: caso não tenha, cria a branche com este nome]
+002-git merge nova-branche:  voce mescla a nova-branche, com a branche que esta em head
