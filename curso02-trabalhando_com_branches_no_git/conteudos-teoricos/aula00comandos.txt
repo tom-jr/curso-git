@@ -9,3 +9,5 @@
  head(onde voce esta trabalhando)
 008-git stash save "descrição": salva seu diretorio de trabalho e index em um stash na branch
 009-git stash pop stash{n} estoura a stash
+010-git stash list: mostra uma lista de stash ->  stash{n} on branch-realizado
+011-git stash clear: apaga(limpa) todos os stashs
