@@ -1,0 +1,4 @@
+git reset sha1-ddo-commit-selecionado:  Leva a head para o commit do sha1 informado
+git reset HEAD~n :  reseta ate n head atras.
+git reset --soft: reverte o commit e deixa em estado Anstage, como adcionado com git add
+git reset --mixed: reverte o commit e deixa em estado untracked como não adcionado com git add.
