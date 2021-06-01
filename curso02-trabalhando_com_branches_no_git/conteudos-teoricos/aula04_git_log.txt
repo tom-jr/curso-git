@@ -1,0 +1,3 @@
+git log é um comando para visualizar um historico de commits realizados na branch.
+git log: para exibir o historio, aperte 'q' para sair da visualização
+git log diretorio: ver o log de determinado diretorio.

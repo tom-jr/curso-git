@@ -11,3 +11,7 @@
 009-git stash pop stash{n} estoura a stash
 010-git stash list: mostra uma lista de stash ->  stash{n} on branch-realizado
 011-git stash clear: apaga(limpa) todos os stashs
+012-q : voce sai de alguma visualização no bash.
+013-git log: mostra um historico de commits realizados no projeto
+014-git log diretorio-name: mostra o o log do diretorio especificado
+015-git log --graph: mostra os logs de forma grafica simples.

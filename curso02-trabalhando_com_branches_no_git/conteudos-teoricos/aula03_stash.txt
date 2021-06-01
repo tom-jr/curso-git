@@ -1,0 +1,5 @@
+Stash: cria-se dentro de uma branch para que não se leve nenhum (lixo, sujeira) para another branch.
+com o comando git stash save "desc": salva qualquer edição que tenha sido adcionada na branch dentro de uma 
+stash(tipo um array)
+quando voce der o comando git stash list ira mostrar a lista de stash como um array e a identificação onde foi criada.
+para limpar os stash usa-se o git stash clear.
