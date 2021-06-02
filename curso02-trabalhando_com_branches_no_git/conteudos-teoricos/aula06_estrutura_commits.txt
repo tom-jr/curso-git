@@ -1,0 +1,6 @@
+A razão para qual se preocupar com a estruturação dos commits
+-melhor legibilidade dos historicos
+-Amigavel para novos desevolvedores
+-Amigavel para o de versionamento semantico.
+
+Commits atomicos
