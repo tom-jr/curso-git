@@ -15,3 +15,7 @@
 013-git log: mostra um historico de commits realizados no projeto
 014-git log diretorio-name: mostra o o log do diretorio especificado
 015-git log --graph: mostra os logs de forma grafica simples.
+016-git reset --soft(HEAD~n ou sha1): reverte o commit e deixa em estado Anstage, como adcionado com git add
+017-git reset --mixed(HEAD~n ou sha1): reverte o commit e deixa em estado untracked como não adcionado com git add.
+018-git reset --hard (HEAD~n ou sha1): reverte o commit e elimina as modificações resetadas.   
+019-git revert  (HEAD~n ou sha1): cria um novo commit com o estado do commit passado como parametro.
