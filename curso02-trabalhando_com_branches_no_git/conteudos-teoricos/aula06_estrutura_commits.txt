@@ -34,3 +34,27 @@ Estrutura do Commit[
 ]
 
 No GitHub as Issues servem para levantar topicos sobre o projeto.
+
+
+Commits semanticos
+
+semantic Version{
+3.2.7
+3-> major[
+ Toda alteração que quebra a compatibilidade.
+]
+2-> minor[
+    implementa funcionalidade sem quebrar a compatibilidade
+]
+7-> path[
+    pequenas alterações com correções de Bugs
+]
+}
+
+Convertional Commits
+conversões para se usar nas mensagens de commits
+define um conjunto de regras para criar um historico de commit
+explicito, o que facilita a criação de ferramentas automotizadas
+bazeada na especificação. Essa especificação se encaixa com o SemVer,
+descrevendo os recursos, correções e modificações que quebram a 
+compatibilidade nas mensagens de commits
