@@ -19,3 +19,4 @@
 017-git reset --mixed(HEAD~n ou sha1): reverte o commit e deixa em estado untracked como não adcionado com git add.
 018-git reset --hard (HEAD~n ou sha1): reverte o commit e elimina as modificações resetadas.   
 019-git revert  (HEAD~n ou sha1): cria um novo commit com o estado do commit passado como parametro.
+020-git config --global core.editor:  adiciona um editor padraão de forma global.

@@ -3,4 +3,34 @@ A razão para qual se preocupar com a estruturação dos commits
 -Amigavel para novos desevolvedores
 -Amigavel para o de versionamento semantico.
 
-Commits atomicos
+Commits atomicos[
+    o conceito de commit atomico é organizar seus commits de forma organizada mantendo-os 
+    subdividos em trabalhos especificos{
+        ex:
+        commit -> mudanças no head da page
+        commit -> mudanças no slide da page
+        ....
+    }
+]
+
+Estrutura do Commit[
+    1.Assunto{
+        curto e compreensivo, de ate 50 caracteres, começa com letra maiuscula, não termina em ponto
+        Escrita de forma imperativa(como se desse uma ordem!)
+        ex: comit "adiciona funcionalidade x"
+    }
+
+    2.Corpo{
+        adicione detalhe ao commit
+        tente quebrar a linha em 75 caracteres
+        identifique sua audiencia
+        Explique tudo
+        Use markdown
+    }
+
+    3.Rodapé{
+ Conseguimos adicionar alguns comandos que enteragem com finções no git e GitHub
+    }
+]
+
+No GitHub as Issues servem para levantar topicos sobre o projeto.
